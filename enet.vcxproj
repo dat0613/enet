@@ -140,7 +140,7 @@
     </Bscmake>
     <Lib>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Release\enet.lib</OutputFile>
+      <OutputFile>.\lib\enet.lib</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -202,7 +202,7 @@
     </Bscmake>
     <Lib>
       <SuppressStartupBanner>true</SuppressStartupBanner>
-      <OutputFile>.\Debug\enet.lib</OutputFile>
+      <OutputFile>.\lib\enetd.lib</OutputFile>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
